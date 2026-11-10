@@ -1,0 +1,19 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment files (may hold API URLs or secrets)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS / tooling
+.vscode/
+.idea/
+.DS_Store
+*.swp
+.claude/settings.local.json
